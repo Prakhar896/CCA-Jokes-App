@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8619A055230FC41D0013016C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A054230FC41D0013016C /* AppDelegate.swift */; };
+		8619A057230FC41D0013016C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A056230FC41D0013016C /* ViewController.swift */; };
+		8619A05A230FC41D0013016C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8619A058230FC41D0013016C /* Main.storyboard */; };
+		8619A05C230FC41E0013016C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8619A05B230FC41E0013016C /* Assets.xcassets */; };
+		8619A05F230FC41E0013016C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8619A05D230FC41E0013016C /* LaunchScreen.storyboard */; };
+		8619A06A230FC41F0013016C /* CCA_Jokes_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A069230FC41F0013016C /* CCA_Jokes_AppTests.swift */; };
+		8619A075230FC41F0013016C /* CCA_Jokes_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A074230FC41F0013016C /* CCA_Jokes_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8619A066230FC41F0013016C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8619A049230FC41D0013016C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8619A050230FC41D0013016C;
+			remoteInfo = "CCA Jokes App";
+		};
+		8619A071230FC41F0013016C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8619A049230FC41D0013016C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8619A050230FC41D0013016C;
+			remoteInfo = "CCA Jokes App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8619A051230FC41D0013016C /* CCA Jokes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCA Jokes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8619A054230FC41D0013016C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8619A056230FC41D0013016C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8619A059230FC41D0013016C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8619A05B230FC41E0013016C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8619A05E230FC41E0013016C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8619A060230FC41E0013016C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8619A065230FC41F0013016C /* CCA Jokes AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCA Jokes AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8619A069230FC41F0013016C /* CCA_Jokes_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCA_Jokes_AppTests.swift; sourceTree = "<group>"; };
+		8619A06B230FC41F0013016C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8619A070230FC41F0013016C /* CCA Jokes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCA Jokes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8619A074230FC41F0013016C /* CCA_Jokes_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCA_Jokes_AppUITests.swift; sourceTree = "<group>"; };
+		8619A076230FC41F0013016C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8619A04E230FC41D0013016C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A062230FC41F0013016C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A06D230FC41F0013016C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8619A048230FC41D0013016C = {
+			isa = PBXGroup;
+			children = (
+				8619A053230FC41D0013016C /* CCA Jokes App */,
+				8619A068230FC41F0013016C /* CCA Jokes AppTests */,
+				8619A073230FC41F0013016C /* CCA Jokes AppUITests */,
+				8619A052230FC41D0013016C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8619A052230FC41D0013016C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8619A051230FC41D0013016C /* CCA Jokes App.app */,
+				8619A065230FC41F0013016C /* CCA Jokes AppTests.xctest */,
+				8619A070230FC41F0013016C /* CCA Jokes AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8619A053230FC41D0013016C /* CCA Jokes App */ = {
+			isa = PBXGroup;
+			children = (
+				8619A054230FC41D0013016C /* AppDelegate.swift */,
+				8619A056230FC41D0013016C /* ViewController.swift */,
+				8619A058230FC41D0013016C /* Main.storyboard */,
+				8619A05B230FC41E0013016C /* Assets.xcassets */,
+				8619A05D230FC41E0013016C /* LaunchScreen.storyboard */,
+				8619A060230FC41E0013016C /* Info.plist */,
+			);
+			path = "CCA Jokes App";
+			sourceTree = "<group>";
+		};
+		8619A068230FC41F0013016C /* CCA Jokes AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8619A069230FC41F0013016C /* CCA_Jokes_AppTests.swift */,
+				8619A06B230FC41F0013016C /* Info.plist */,
+			);
+			path = "CCA Jokes AppTests";
+			sourceTree = "<group>";
+		};
+		8619A073230FC41F0013016C /* CCA Jokes AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8619A074230FC41F0013016C /* CCA_Jokes_AppUITests.swift */,
+				8619A076230FC41F0013016C /* Info.plist */,
+			);
+			path = "CCA Jokes AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8619A050230FC41D0013016C /* CCA Jokes App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8619A079230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes App" */;
+			buildPhases = (
+				8619A04D230FC41D0013016C /* Sources */,
+				8619A04E230FC41D0013016C /* Frameworks */,
+				8619A04F230FC41D0013016C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCA Jokes App";
+			productName = "CCA Jokes App";
+			productReference = 8619A051230FC41D0013016C /* CCA Jokes App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8619A064230FC41F0013016C /* CCA Jokes AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8619A07C230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes AppTests" */;
+			buildPhases = (
+				8619A061230FC41F0013016C /* Sources */,
+				8619A062230FC41F0013016C /* Frameworks */,
+				8619A063230FC41F0013016C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8619A067230FC41F0013016C /* PBXTargetDependency */,
+			);
+			name = "CCA Jokes AppTests";
+			productName = "CCA Jokes AppTests";
+			productReference = 8619A065230FC41F0013016C /* CCA Jokes AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8619A06F230FC41F0013016C /* CCA Jokes AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8619A07F230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes AppUITests" */;
+			buildPhases = (
+				8619A06C230FC41F0013016C /* Sources */,
+				8619A06D230FC41F0013016C /* Frameworks */,
+				8619A06E230FC41F0013016C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8619A072230FC41F0013016C /* PBXTargetDependency */,
+			);
+			name = "CCA Jokes AppUITests";
+			productName = "CCA Jokes AppUITests";
+			productReference = 8619A070230FC41F0013016C /* CCA Jokes AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8619A049230FC41D0013016C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ssoeuser;
+				TargetAttributes = {
+					8619A050230FC41D0013016C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8619A064230FC41F0013016C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8619A050230FC41D0013016C;
+					};
+					8619A06F230FC41F0013016C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8619A050230FC41D0013016C;
+					};
+				};
+			};
+			buildConfigurationList = 8619A04C230FC41D0013016C /* Build configuration list for PBXProject "CCA Jokes App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8619A048230FC41D0013016C;
+			productRefGroup = 8619A052230FC41D0013016C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8619A050230FC41D0013016C /* CCA Jokes App */,
+				8619A064230FC41F0013016C /* CCA Jokes AppTests */,
+				8619A06F230FC41F0013016C /* CCA Jokes AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8619A04F230FC41D0013016C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8619A05F230FC41E0013016C /* LaunchScreen.storyboard in Resources */,
+				8619A05C230FC41E0013016C /* Assets.xcassets in Resources */,
+				8619A05A230FC41D0013016C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A063230FC41F0013016C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A06E230FC41F0013016C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8619A04D230FC41D0013016C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8619A057230FC41D0013016C /* ViewController.swift in Sources */,
+				8619A055230FC41D0013016C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A061230FC41F0013016C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8619A06A230FC41F0013016C /* CCA_Jokes_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8619A06C230FC41F0013016C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8619A075230FC41F0013016C /* CCA_Jokes_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8619A067230FC41F0013016C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8619A050230FC41D0013016C /* CCA Jokes App */;
+			targetProxy = 8619A066230FC41F0013016C /* PBXContainerItemProxy */;
+		};
+		8619A072230FC41F0013016C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8619A050230FC41D0013016C /* CCA Jokes App */;
+			targetProxy = 8619A071230FC41F0013016C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8619A058230FC41D0013016C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8619A059230FC41D0013016C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8619A05D230FC41E0013016C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8619A05E230FC41E0013016C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8619A077230FC41F0013016C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8619A078230FC41F0013016C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8619A07A230FC41F0013016C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8619A07B230FC41F0013016C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8619A07D230FC41F0013016C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCA Jokes App.app/CCA Jokes App";
+			};
+			name = Debug;
+		};
+		8619A07E230FC41F0013016C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCA Jokes App.app/CCA Jokes App";
+			};
+			name = Release;
+		};
+		8619A080230FC41F0013016C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCA Jokes App";
+			};
+			name = Debug;
+		};
+		8619A081230FC41F0013016C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49JL8262M2;
+				INFOPLIST_FILE = "CCA Jokes AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Prakhar.CCA-Jokes-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCA Jokes App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8619A04C230FC41D0013016C /* Build configuration list for PBXProject "CCA Jokes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8619A077230FC41F0013016C /* Debug */,
+				8619A078230FC41F0013016C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8619A079230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8619A07A230FC41F0013016C /* Debug */,
+				8619A07B230FC41F0013016C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8619A07C230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8619A07D230FC41F0013016C /* Debug */,
+				8619A07E230FC41F0013016C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8619A07F230FC41F0013016C /* Build configuration list for PBXNativeTarget "CCA Jokes AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8619A080230FC41F0013016C /* Debug */,
+				8619A081230FC41F0013016C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8619A049230FC41D0013016C /* Project object */;
+}
