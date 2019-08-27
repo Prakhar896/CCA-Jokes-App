@@ -14,6 +14,7 @@
 		8619A05F230FC41E0013016C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8619A05D230FC41E0013016C /* LaunchScreen.storyboard */; };
 		8619A06A230FC41F0013016C /* CCA_Jokes_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A069230FC41F0013016C /* CCA_Jokes_AppTests.swift */; };
 		8619A075230FC41F0013016C /* CCA_Jokes_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8619A074230FC41F0013016C /* CCA_Jokes_AppUITests.swift */; };
+		86762F322315102500A0D160 /* Jokes Code Stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86762F312315102500A0D160 /* Jokes Code Stuff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8619A070230FC41F0013016C /* CCA Jokes AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCA Jokes AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8619A074230FC41F0013016C /* CCA_Jokes_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCA_Jokes_AppUITests.swift; sourceTree = "<group>"; };
 		8619A076230FC41F0013016C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86762F312315102500A0D160 /* Jokes Code Stuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jokes Code Stuff.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8619A054230FC41D0013016C /* AppDelegate.swift */,
 				8619A056230FC41D0013016C /* ViewController.swift */,
 				8619A058230FC41D0013016C /* Main.storyboard */,
+				86762F312315102500A0D160 /* Jokes Code Stuff.swift */,
 				8619A05B230FC41E0013016C /* Assets.xcassets */,
 				8619A05D230FC41E0013016C /* LaunchScreen.storyboard */,
 				8619A060230FC41E0013016C /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				8619A057230FC41D0013016C /* ViewController.swift in Sources */,
 				8619A055230FC41D0013016C /* AppDelegate.swift in Sources */,
+				86762F322315102500A0D160 /* Jokes Code Stuff.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
