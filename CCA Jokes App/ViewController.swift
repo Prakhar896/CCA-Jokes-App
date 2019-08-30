@@ -23,13 +23,42 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var setuplabel: UILabel!
     @IBOutlet weak var whatButton: UIButton!
-    @IBOutlet weak var punchlineButton: UILabel!
+    @IBOutlet weak var punchlineLabel: UILabel!
     @IBOutlet weak var tapLabel: UILabel!
+    @IBOutlet var tapScreenGestRecog: UITapGestureRecognizer!
+    
+    var currentJoke = 0
+    
+    fileprivate func setupCurrentJoke() {
+        setuplabel.text = jokesArr[currentJoke].setup
+        punchlineLabel.text = jokesArr[currentJoke].punchline
+        punchlineLabel.isHidden = true
+        tapLabel.isHidden = true
+        tapScreenGestRecog.isEnabled = false
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tapScreenGestRecog.isEnabled = true
+        setupCurrentJoke()
     }
 
+    @IBAction func whatButtonPressed(_ sender: Any) {
+        punchlineLabel.isHidden = false
+        tapLabel.isHidden = false
+        tapScreenGestRecog.isEnabled = true
+    }
+    
+    @IBAction func tapped(_ sender: Any) {
+        if currentJoke >= 8 {
+            currentJoke = 0
+            setupCurrentJoke()
+        } else {
+            currentJoke += 1
+            print(currentJoke)
+            setupCurrentJoke()
+        }
+    }
+    
 }
 

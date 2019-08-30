@@ -40,6 +40,9 @@
                                 <state key="normal" title="What?!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="whatButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uiv-tC-jTb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap Anywhere To Continue!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Sj-OH-9R6">
                                 <rect key="frame" x="20" y="840" width="374" height="42"/>
@@ -52,21 +55,31 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Sj-OH-9R6" secondAttribute="trailing" constant="20" id="9W1-Ob-CX3"/>
                             <constraint firstItem="8Sj-OH-9R6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ls3-wM-2db"/>
                             <constraint firstItem="8Sj-OH-9R6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="Pn6-xu-NyK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8yq-jX-eet" appends="YES" id="nR3-jL-X8f"/>
+                        </connections>
                     </view>
                     <connections>
-                        <outlet property="punchlineButton" destination="jgp-Lb-s6R" id="Yby-9t-eOC"/>
+                        <outlet property="punchlineLabel" destination="jgp-Lb-s6R" id="Yby-9t-eOC"/>
                         <outlet property="setuplabel" destination="ICn-9f-eyo" id="4yq-Fd-tEG"/>
                         <outlet property="tapLabel" destination="8Sj-OH-9R6" id="eBt-fg-BTg"/>
+                        <outlet property="tapScreenGestRecog" destination="8yq-jX-eet" id="KIL-nJ-Cfd"/>
                         <outlet property="whatButton" destination="Fjo-i8-YtR" id="7zq-jd-NDx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8yq-jX-eet">
+                    <connections>
+                        <action selector="tapped:" destination="BYZ-38-t0r" id="dXi-Uu-C73"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="126.5625"/>
         </scene>
