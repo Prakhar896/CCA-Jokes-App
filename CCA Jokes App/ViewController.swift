@@ -49,6 +49,8 @@ class ViewController: UIViewController {
         tapScreenGestRecog.isEnabled = true
     }
     
+    //Reset to new joke
+    
     @IBAction func tapped(_ sender: Any) {
         if currentJoke >= 8 {
             currentJoke = 0
