@@ -55,7 +55,6 @@ class ViewController: UIViewController {
             setupCurrentJoke()
         } else {
             currentJoke += 1
-            print(currentJoke)
             setupCurrentJoke()
         }
     }
