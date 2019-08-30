@@ -51,9 +51,22 @@ class ViewController: UIViewController {
     
     //Reset to new joke
     
+    fileprivate func alert(title: String, message: String, alert1String: String, alert1Type: UIAlertAction.Style, alert2String: String, alert2Type: UIAlertAction.Style) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: NSLocalizedString(alert1String, comment: "Default action"), style: alert1Type, handler: { _ in
+            NSLog("The \"OK\" alert occured.")
+        }))
+        alert.addAction(UIAlertAction(title: NSLocalizedString(alert2String, comment: "Default action"), style: alert2Type, handler: { _ in
+            NSLog("The \"OK\" alert occured.")
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func tapped(_ sender: Any) {
         if currentJoke >= 8 {
             currentJoke = 0
+            alert(title: "Did You Laugh?", message: "🤣", alert1String: "YES!🤣🤣🤣", alert1Type: .default, alert2String: "NO!👿👿👿", alert2Type: .destructive)
             setupCurrentJoke()
         } else {
             currentJoke += 1
@@ -62,4 +75,3 @@ class ViewController: UIViewController {
     }
     
 }
-
